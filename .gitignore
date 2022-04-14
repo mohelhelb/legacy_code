@@ -1,0 +1,5 @@
+venv/
+pyapp/*.db
+pyapp/static/images/setup.gif
+__pycache__/
+pyapp/__pycache__/
