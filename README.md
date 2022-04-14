@@ -25,26 +25,27 @@ This project is a simple blog-based web application built with Flask (Python web
 The steps that should be taken to set up this projects are as follows:
 
 - Clone the GitHub repository (preferably into */home/"user"/projects/*).
-        ```
-        [mkdir -p ~/projects/]
-        git clone git@github.com:mohelhelb/flask_blog_app.git [~/projects/flask_blog_app/]
-        ```
+	```
+	[mkdir -p ~/projects/]
+	git clone git@github.com:mohelhelb/flask_blog_app.git [~/projects/flask_blog_app/]
+	```
 - Isolate the project by creating a virtual environment. 
-        ``` 
-        pip install virtualenv 
-        virtualenv ~/projects/flask_blog_app/venv/ 
-        source ~/projects/flask_blog_app/venv/bin/activate 
-        ``` 
+	``` 
+	pip install virtualenv 
+	virtualenv ~/projects/flask_blog_app/venv/ 
+	source ~/projects/flask_blog_app/venv/bin/activate 
+	``` 
 - Install the project's dependencies (See the *requirements.txt* file). 
-        ``` 
-        pip install -r ~/projects/flask_blog_app/requirements.txt 
-        ``` 
+	``` 
+	pip install -r ~/projects/flask_blog_app/requirements.txt 
+	``` 
 - Launch Python in interactive mode and create a database.
 	```
 	cd ~/projects/flask_blog_app/
 	```
 	```
 	python
+	
 	>>> from pyapp.hub import db
 	>>> db.create_all()
 	```
