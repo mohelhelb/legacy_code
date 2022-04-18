@@ -59,4 +59,4 @@ The steps that should be taken to set up this project are as follows:
 	~~~
 	flask run
 	~~~
-- Enter the IP address that is generated in the browser's search bar.
+- Enter the IP address that is generated (http://127.0.0.1:5000/) on running the application in the browser's search bar.
