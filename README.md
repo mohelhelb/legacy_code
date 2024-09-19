@@ -1,12 +1,10 @@
+# Legacy Code
+
 ## Web Application
 
 ### Description
 
-This project is a simple blog-based web application built with Flask (Python web framework). It is CRUD compliant, that is to say it is a model that provides four basic types of functionalities: *Create*, *Read*, *Update*, and *Delete* posts. It also allows users to create an account as well as delete their existing one. Despite the fact that it is not a large application, *user authentication* has been carefully taken into account. This project is in progress in that there are a few features that are to be implemented, namely password recovery, change of credentials, software deployment, etc.
-
-### Video Presentation
-
-<img src="pyapp/static/images/presentation.gif" alt="Video Presentation" title="Flask-based Blog">
+This project is a simple blog-based web application built with Flask (Python web framework). It is CRUD compliant, that is to say it is a model that provides four basic types of functionalities: *Create*, *Read*, *Update*, and *Delete* posts. It also allows users to create an account as well as delete their existing one.
 
 
 ### Software tools
